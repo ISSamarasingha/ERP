@@ -1,0 +1,70 @@
+
+/* Divider */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+/* Body font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+}
+
+/* Form card styling */
+.form-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Reduce gap between image and form */
+.row.d-flex > .col-md-7 {
+  margin-left: -20px; /* tighter spacing */
+}
+
+/* Lead text */
+.lead {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Button */
+.btn-danger {
+  background: linear-gradient(90deg, #ff4b5c, #c8001e);
+  border: none;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  width: 100%; /* Full width button */
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(90deg, #c8001e, #ff4b5c);
+  color: #fff;
+}
+/* Image */
+.img-fluid {
+  border-radius: 15px;
+}
+
